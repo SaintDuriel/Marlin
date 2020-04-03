@@ -103,6 +103,7 @@
 #define BOARD_HJC2560C_REV2           1147  // ADIMLab Gantry v2
 #define BOARD_TANGO                   1148  // BIQU Tango V1
 #define BOARD_MKS_GEN_L_V2            1149  // MKS GEN L V2
+#define BOARD_COPYMASTER_3D           1150  // Copymaster 3D
 
 //
 // RAMBo and derivatives
@@ -141,6 +142,9 @@
 #define BOARD_EINSTART_S              1319  // Einstart retrofit
 #define BOARD_WANHAO_ONEPLUS          1320  // Wanhao 0ne+ i3 Mini
 #define BOARD_LEAPFROG_XEED2015       1321  // Leapfrog Xeed 2015
+#define BOARD_PICA_REVB               1322  // PICA Shield (original version)
+#define BOARD_PICA                    1323  // PICA Shield (rev C or later)
+#define BOARD_INTAMSYS40              1324  // Intamsys 4.0 (Funmat HT)
 
 //
 // ATmega1281, ATmega2561
@@ -335,8 +339,8 @@
 // Espressif ESP32 WiFi
 //
 #define BOARD_ESPRESSIF_ESP32         6000  // Generic ESP32
-#define BOARD_MRR_ESPA                6001
-#define BOARD_MRR_ESPE                6002
+#define BOARD_MRR_ESPA                6001  // MRR ESPA board based on ESP32 (native pins only)
+#define BOARD_MRR_ESPE                6002  // MRR ESPE board based on ESP32 (with I2S stepper stream)
 #define BOARD_E4D_BOX                 6003  // E4d@BOX
 
 //
